@@ -10,8 +10,28 @@ CREATE TABLE `Moods` (
     `label` TEXT NOT NULL
 );
 INSERT INTO `Entries`
-VALUES (null, "ABCC", "its easy as 123", 12 / 12 / 12, 3);
+VALUES (
+        null,
+        "Learned alot",
+        "its easy as 123",
+        1598458543321,
+        3
+    );
 INSERT INTO `Entries`
-VALUES (null, "123", "its easy as ABC", 12 / 12 / 12, 3);
+VALUES (null, "123", "its easy as ABC", 1598458548239, 3);
 INSERT INTO `Entries`
-VALUES (null, "CODE", "IS REALLY HARD", 12 / 12 / 12, 3);
+VALUES (
+        null,
+        "CODE",
+        "IS Makingme sad",
+        1598458559152,
+        2
+    );
+INSERT INTO `Moods`
+VALUES (null, "Happy");
+INSERT INTO `Moods`
+VALUES (null, "Sad");
+INSERT INTO `Moods`
+VALUES (null, "Angry");
+INSERT INTO `Moods`
+VALUES (null, "Ok");
